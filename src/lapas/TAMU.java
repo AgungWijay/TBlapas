@@ -48,6 +48,11 @@ public class TAMU extends javax.swing.JFrame {
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 430, 320, 100));
 
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lapas/UI/LIHATDAFTARTAMUButton.png"))); // NOI18N
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 310, 320, 100));
 
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lapas/UI/ISIBUKUTAMUButton.png"))); // NOI18N
@@ -77,6 +82,13 @@ public class TAMU extends javax.swing.JFrame {
         this.setVisible(false);
         isibukutamu.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        TAMPIL_TAMU tampiltamu = new TAMPIL_TAMU();
+        this.setVisible(false);
+        tampiltamu.setVisible(true);
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
