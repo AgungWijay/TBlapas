@@ -29,7 +29,6 @@ public class ADMIN extends javax.swing.JFrame {
 
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
@@ -44,6 +43,7 @@ public class ADMIN extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lapas/UI/CHECKINButton.png"))); // NOI18N
+        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -57,13 +57,10 @@ public class ADMIN extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 240, 140, 100));
-
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lapas/UI/CHOCKOUTButton.png"))); // NOI18N
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 370, 140, 100));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 240, 140, 100));
 
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lapas/UI/DATAPETUGASButton.png"))); // NOI18N
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 370, 140, 100));
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 390, 140, 100));
 
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lapas/UI/KEMBALIButton.png"))); // NOI18N
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -139,7 +136,6 @@ public class ADMIN extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JLabel jLabel1;

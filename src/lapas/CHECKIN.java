@@ -202,7 +202,7 @@ public class CHECKIN extends javax.swing.JFrame {
         // TODO add your handling code here:
         ADMIN admin = new ADMIN();
         admin.setVisible(true);
-        this.dispose();
+        this.setVisible(false);
         
     }//GEN-LAST:event_jButton1ActionPerformed
 
