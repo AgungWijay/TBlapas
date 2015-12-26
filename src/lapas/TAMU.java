@@ -28,7 +28,6 @@ public class TAMU extends javax.swing.JFrame {
     private void initComponents() {
 
         jButton4 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
@@ -44,16 +43,13 @@ public class TAMU extends javax.swing.JFrame {
         });
         getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 560, 160, 40));
 
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lapas/UI/ISIBUKUTAMUButton.png"))); // NOI18N
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 430, 320, 100));
-
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lapas/UI/LIHATDAFTARTAMUButton.png"))); // NOI18N
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 310, 320, 100));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 370, 320, 100));
 
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lapas/UI/ISIBUKUTAMUButton.png"))); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -61,7 +57,7 @@ public class TAMU extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 190, 320, 100));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 200, 320, 100));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lapas/UI/TAMUBackground.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
@@ -85,9 +81,11 @@ public class TAMU extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        TAMPIL_TAMU tampiltamu = new TAMPIL_TAMU();
         this.setVisible(false);
+        TAMPIL_TAMU tampiltamu = new TAMPIL_TAMU();
         tampiltamu.setVisible(true);
+        
+
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
@@ -128,7 +126,6 @@ public class TAMU extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
