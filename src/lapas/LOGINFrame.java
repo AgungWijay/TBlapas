@@ -44,6 +44,10 @@ public class LOGINFrame extends javax.swing.JFrame  {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMaximumSize(new java.awt.Dimension(924, 690));
+        setMinimumSize(new java.awt.Dimension(924, 690));
+        setPreferredSize(new java.awt.Dimension(924, 690));
+        setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         PASSWORD.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N

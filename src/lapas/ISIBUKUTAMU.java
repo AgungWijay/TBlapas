@@ -73,21 +73,21 @@ public class ISIBUKUTAMU extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMaximumSize(new java.awt.Dimension(924, 690));
+        setMinimumSize(new java.awt.Dimension(924, 690));
+        setPreferredSize(new java.awt.Dimension(924, 690));
+        setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
         jLabel2.setText("NO KUNJUNGAN");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 190, -1, -1));
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
         jLabel3.setText("NIP");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 220, -1, -1));
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
         jLabel4.setText("NIK NAPI");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 190, 53, -1));
 
-        jLabel5.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
         jLabel5.setText("TGL KUNJUNGAN");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 220, -1, -1));
 
@@ -109,19 +109,15 @@ public class ISIBUKUTAMU extends javax.swing.JFrame {
         getContentPane().add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 220, 200, -1));
         getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 250, 752, 10));
 
-        jLabel6.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
         jLabel6.setText("NIK PENGUNJUNG");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
-        jLabel7.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
         jLabel7.setText("NAMA PENGUNJUNG");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 300, -1, -1));
 
-        jLabel8.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
         jLabel8.setText("HUBUNGAN");
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 330, -1, -1));
 
-        jLabel9.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
         jLabel9.setText("NO TELP");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 360, -1, -1));
 
@@ -220,7 +216,6 @@ public class ISIBUKUTAMU extends javax.swing.JFrame {
         });
         getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 570, -1, -1));
 
-        jLabel10.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
         jLabel10.setText("ALAMAT");
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 390, -1, -1));
 

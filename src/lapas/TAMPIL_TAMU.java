@@ -50,6 +50,11 @@ public class TAMPIL_TAMU extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMaximumSize(new java.awt.Dimension(924, 690));
+        setMinimumSize(new java.awt.Dimension(924, 690));
+        setPreferredSize(new java.awt.Dimension(924, 690));
+        setResizable(false);
+        setSize(new java.awt.Dimension(924, 690));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lapas/UI/KEMBALIButton.png"))); // NOI18N
